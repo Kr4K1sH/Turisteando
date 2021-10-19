@@ -1,0 +1,210 @@
+body{
+
+margin:0;
+}
+
+ nav ul {
+   list-style: none;
+}
+
+nav ul li{
+    display: block;
+}
+
+
+.slider{
+	width: 100%;
+	margin:auto;
+	overflow: hidden;
+padding:auto;
+
+}
+
+.slider ul{
+	display: flex;
+	padding:0;
+	width: 400%;
+	animation: cambio 20s infinite alternate ;
+ margin:auto;
+}
+.slider: nth-child(2) ul{
+	animation-timing-function: steps(4);
+}
+
+
+
+.slider li{
+	width: 400%;
+	list-style: none;
+}
+
+.slider img{
+ width:100%;
+ height:50%;
+ padding-top:none;
+ margin:auto;
+}
+
+@keyframes cambio{
+	
+	0% { margin-left: 0;}
+	20%{ margin-left: 0;}
+	
+	25%{ margin-left: -100%;}
+	45%{margin-left: -100%;}
+    
+	50%{margin-left: -200%; }
+    70%{margin-left: -200%; }	
+	
+	75%{margin-left: -300%; }
+	100%{margin-left: -300%; }
+	
+	}
+
+	
+}
+#aside{
+	float:right;
+	 
+}
+	
+#li1{
+	
+	float:right;
+	width:27%;
+	height:90% ;
+	
+	position: absolute;
+	top:480px;
+	right:0px;
+	
+}
+#form-group{
+	float:left;
+	width:30%;
+	margin: 20px 0px;
+	margin-top:40px;
+	margin-right:10%;
+	padding:-60px;
+	
+}
+.form-control{
+	float:top;
+}
+#box-search{
+
+float:right;
+width:30%;
+margin:0 -105;
+padding:45px 20px;
+}
+.search{
+	width:80%;
+	left:5%;
+	margin:-10 -10;
+}
+.container-curiosidad{
+	float:right;
+	padding-top:0;
+	margin:0 auto;
+	
+}
+.Container{
+	width:auto;
+}
+main{
+	background:#000;
+}
+
+#navbar{
+	margin:auto;
+	width:auto;
+	
+}
+
+@media screen and (max-width: 931px){
+	#li1{
+		width:28%;
+		height:30%;
+		margin:0;
+		visibility:hidden;
+	}
+      
+
+ 
+}
+@media screen and (max-width: 541px){
+	#li1{
+		width:44%;
+		height: 68%;
+		margin:0;
+	 visibility: hidden;
+	}
+   
+	
+	
+}	
+@media screen and (max-width: 471px){
+	 #li1{
+		visibility: hidden;
+		width:0%;
+		height:0%;
+		margin:0;
+		padding:0;
+	}
+     
+	
+    
+}
+.body{
+	width:940px;
+	height:200px;
+     border-style:dotted;
+    border-width:1px;
+    border-color:green;
+    border-radius:15px;
+    padding:1%;
+   
+	
+}
+div#general{
+
+	margin: auto;
+	margin-top: 20px;
+	width:100%;
+	height:100%;
+	
+}
+#search{
+	
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background-color: black;
+	
+}
+
+#myInput{
+
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+	
+}
+#footer{
+	bottom:0px;
+text-align: center;
+width:100%;
+margin-top:1000px;
+font-family: sans-serif;
+color:#3f3128;
+background-color:black;
+}
